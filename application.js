@@ -15,6 +15,7 @@ module.exports = class Loa extends Emitter {
         res.end("server start");
     }
     listen(port) {
+        console.log(port+" port is start")
         const server = http.createServer((req,res) => {
             this.middle(req,res);
         });
