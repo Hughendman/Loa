@@ -1,0 +1,16 @@
+{
+  "name": "Loa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node main.js",
+    "prd": "node main.js",
+    "test": "node main.js"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+  }
+}
